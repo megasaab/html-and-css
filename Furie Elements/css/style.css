@@ -1,0 +1,732 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../img/body-background.png);
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+hr {
+    color: #c1c1c1;
+}
+
+input,
+textarea {
+    outline: none;
+}
+
+textarea {
+    color: red;
+}
+
+.container {
+    max-width: 1808px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+.header-menu {
+    display: flex;
+    margin-top: 75px;
+    align-items: center;
+}
+
+.header-contacts a {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 72.23px;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 15px;
+
+
+}
+
+
+
+.header-contacts img {
+    max-width: 32px;
+    max-height: 26px;
+    padding-top: 10px;
+
+}
+
+.logo {
+    padding-right: 400px;
+}
+
+.header__email {
+    line-height: 72.23px;
+    margin-left: 10px;
+}
+
+.header__phone {
+    line-height: 72.23px;
+    margin: 30px;
+}
+
+.header-menu__button button {
+    width: 120px;
+    height: 50px;
+    border-radius: 28px;
+    background-color: #ffffff;
+    color: #135ec5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+
+
+.car-slider img {
+    width: 500px;
+    height: 300px;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.car-slider {
+    margin-top: 150px;
+
+}
+
+.car-slider .slick-dots {
+    list-style: none;
+    transform: translateY(-600%);
+    float: right;
+    margin-right: 45px;
+
+}
+
+.car-slider .slick-dots button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    padding: 0;
+    border: none;
+    background-color: #3c3c3c;
+    outline: none;
+}
+
+.car-slider .slick-dots li.slick-active button {
+    background-color: #135ec5;
+
+}
+
+.car-slider .click-list {
+    width: 20%;
+}
+
+.car-slider p {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 72.23px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.search-menu__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-menu__items input {
+    max-width: 150px;
+    max-height: 50px;
+    color: #3c3c3c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border: none;
+    background-color: #131210;
+    border-bottom: 1px solid #3c3c3c;
+    font-size: 30px;
+
+
+}
+
+.search-menu__items button {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 214px;
+    height: 55px;
+    border-radius: 28px;
+    background-color: #135ec5;
+
+}
+
+.car-models {
+    background-color: #fff;
+    max-height: 900px;
+    margin-top: 100px;
+}
+
+.car-models__p {
+    text-align: center;
+    width: 132px;
+    height: 18px;
+    color: #c1c1c1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    padding-top: 70px;
+}
+
+.car-models__slider img {
+    width: 67px;
+    height: 67px;
+}
+
+.car-models__slider {
+    margin-top: 70px;
+    padding-bottom: 70px;
+}
+
+.car-review__inner {
+    display: flex;
+    max-width: 1900px;
+}
+
+.car-revirew__img {
+    width: 524px;
+    height: 286px;
+}
+
+.car-review__text {
+    display: flex;
+}
+
+.car-model__reviews {
+    background-color: #fff;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.car-review__text {
+    display: block;
+    margin-left: 120px;
+
+
+}
+
+.car-review__text span {
+    width: 354px;
+    height: 47px;
+    color: #135ec5;
+    font-family: 'Montserrat'sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+
+}
+
+.car-review__text p {
+    max-width: 693px;
+    min-height: 65px;
+    color: #c1c1c1;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 48px;
+
+
+
+}
+
+.car-review__text button {
+    width: 214px;
+    height: 55px;
+    border-radius: 28px;
+    background-color: #135ec5;
+    width: 214px;
+    height: 55px;
+    color: #ffffff;
+    font-family: 'Montserrat'sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 70px;
+
+
+}
+
+
+.car-add {
+    padding-top: 150px;
+    background-color: #135ec5;
+    padding-bottom: 180px;
+}
+
+.car-add__h5 {
+    max-width: 899px;
+    max-height: 59px;
+    color: #ffffff;
+    font-family: 'Montserrat'sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.car-add button {
+    margin-top: 50px;
+    height: 55px;
+    border-radius: 28px;
+    border: 3px solid #ffffff;
+    background-color: #135ec5;
+    width: 214px;
+    font-family: 'Montserrat'sans-serif;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.car-add__button {
+    text-align: center;
+
+}
+
+.car-add-img__section img {
+
+    display: flex;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.car-add-img__section {
+    background-color: #fefefe;
+
+
+}
+
+.car-price-slider {
+    background-color: #fefefe;
+
+}
+
+.reviews-box__content {
+    background-color: white;
+    width: 100%;
+    min-height: 350px;
+
+
+
+
+}
+
+.reviews-box {
+    display: flex;
+    box-shadow: 0px 21px 49px 1px rgba(41, 44, 61, 0.15);
+}
+
+.reviews-box__images {
+    background-color: #2575e7;
+    max-width: 35%;
+    max-height: 800px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+
+.reviews-box__images button {
+    float: right;
+    margin-top: 45px;
+    margin-right: 30px;
+    width: 85px;
+    height: 29px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    color: #135ec5;
+    font-family: 'Montserrat'sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.reviews-box__images img {
+    margin-top: 175px;
+    transform: translateX(-17%);
+}
+
+.box__content {
+    display: flex;
+    margin-top: 60px;
+}
+
+.box__content p {
+    width: 118px;
+    height: 26px;
+    color: #16ad2c;
+    font-family: 'Montserrat'sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.box__content a {
+    width: 110px;
+    height: 8px;
+    color: #e2e2e2;
+    font-family: 'Montserrat'sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.box-review__text {
+    margin-top: 130px;
+
+}
+
+.box-review__text span {
+    width: 340px;
+    height: 23px;
+    color: #135ec5;
+    font-family: 'Montserrat'sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 72.23px;
+    margin-left: 138px;
+}
+
+.box-review__text p {
+    margin-top: 60px;
+    max-width: 600px;
+    height: 157px;
+    color: #c1c1c1;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 48px;
+    margin-left: 138px;
+}
+
+.box-review__text button {
+    width: 214px;
+    height: 55px;
+    border-radius: 28px;
+    background-color: #135ec5;
+    color: #ffffff;
+    font-family: 'Montserrat'sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-left: 138px;
+    padding: 21px 21px 21px 21px;
+}
+
+
+.reviews-slider .slick-dots {
+    list-style: none;
+    transform: translateY(-600%);
+    float: right;
+    margin-right: 45px;
+    display: flex;
+}
+
+
+
+.reviews-slider .slick-dots li {
+    margin: 0 8px;
+
+}
+
+.reviews-slider .slick-dots button {
+    font-size: 0;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    padding: 0;
+    border: none;
+    background-color: #3c3c3c;
+    outline: none;
+
+}
+
+.reviews-slider .slick-dots li.slick-active button {
+    background-color: white;
+    width: 10px;
+    height: 10px;
+
+}
+
+.reviews-slider .click-list {
+    width: 20%;
+}
+
+.reviews-slider .slick-dots {
+    list-style: none;
+    transform: translateY(-600%);
+    float: right;
+    margin-right: 45px;
+}
+
+.reviews-slider__item-second {}
+
+.reviews-box-second {
+    display: block;
+}
+
+.reviews-box__image-second {
+    padding-top: 150px;
+}
+
+.reviews-box__image-second img {
+    transform: translateY(60%);
+
+}
+
+.reviews-box__content-second {
+    background-color: #135ec5;
+
+}
+
+.reviews-box__content-second button {
+    float: right;
+    margin-top: 45px;
+    margin-right: 30px;
+    width: 85px;
+    height: 29px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    color: #135ec5;
+    font-family: 'Montserrat'sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.box__content-second {}
+
+.box-review__text-second {
+    max-height: 800px;
+    background-color: white;
+    align-items: center;
+    padding-top: 150px;
+
+}
+
+.box-review__text-second span {
+    max-width: 700px;
+    height: 20px;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    justify-content: center;
+    display: flex;
+
+}
+
+.box-review__text-second .Mercedec_cars {
+    width: 150px;
+    height: 11px;
+    color: #135ec5;
+    font-family: 'Montserrat'sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 72.23px;
+    justify-content: center;
+    display: flex;
+}
+
+.box-review__text-second .car-about-p {
+    width: 267px;
+    height: 15px;
+    color: #c1c1c1;
+    font-family: 'Montserrat'sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100.23px;
+    margin-top: 50px;
+}
+
+.box__content-price-second {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    padding-right: 20px;
+}
+
+.box__content-price-second a {
+    width: 118px;
+    height: 26px;
+    color: #16ad2c;
+    font-family: 'Montserrat'sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 72.23px;
+}
+
+.box__content-price-second p {
+    height: 49px;
+    border-radius: 25px;
+    background-color: #e2e2e2;
+    color: #ffffff;
+    font-family: 'Montserrat'sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 21px 21px 21px;
+}
+
+.p_button {
+    padding-left: 100px;
+    margin-right: 200px;
+
+}
+
+.price_box_second {
+    padding-right: 300px;
+}
+
+.search-footer {
+    background-color: #fff;
+}
+
+.first-search__menu-footer {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding-bottom: 70px;
+    padding-left: 100px;
+    padding-left: 30px;
+
+}
+
+.first-search__menu-footer input {
+    height: 30px;
+    color: black;
+    font-family: 'Montserrat'sans-serif;
+    font-weight: 700;
+    max-width: 200px;
+    border: none;
+    border-bottom: 1px solid #c1c1c1;
+    font-size: 15px;
+    margin-left: 100px;
+}
+
+.first-search__menu-footer .pick-region {
+    border-bottom: 1px solid #c1c1c1;
+    color: black !important;
+    font-size: 17px;
+}
+
+.first-search__menu-footer_second {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding-bottom: 70px;
+    padding-right: 100px;
+
+
+}
+
+.first-search__menu-footer_second input {
+    height: 30px;
+    color: black;
+    font-family: 'Montserrat'sans-serif;
+    font-weight: 700;
+    max-width: 300px;
+    border: none;
+    border-bottom: 1px solid #c1c1c1;
+    font-size: 15px;
+    margin-left: 100px;
+}
+
+.hide-button {
+    display: flex;
+    justify-content: center;
+}
+
+.hide-button button {
+    width: 187px;
+    height: 69px;
+    background-color: #135ec5;
+    color: #ffffff;
+    font-family: 'Montserrat'sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 72.23px;
+    border-radius: 25px;
+}
+
+.hiden-footer {
+    background-color: white;
+    transform: translateY(-35%);
+
+}
+.hiden-footer-color {
+    background-color: #135ec5;
+    width: 1300px;
+    
+}
+.first-search__menu-footer_hiden input {
+    height: 30px;
+    color: black;
+    font-family: 'Montserrat'sans-serif;
+    font-weight: 700;
+    max-width: 300px;
+    border: none;
+    font-size: 15px;
+    margin-left: 10px;
+    background-color: #135ec5;
+    padding-left: 100px;
+    padding-top: 50px;
+    
+}
+
+.first-search__menu-footer_hiden {
+    margin-top: 100px;
+}
+
+.hiden-button-search {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    margin-top: 50px;
+}
+
+.hiden-button-search button {
+    width: 204px;
+    height: 55px;
+    color: #135ec5;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Montserrat'sans-serif;
+    border-radius: 28px;
+    background-color: #ffffff;
+}
+
+.bg-color {
+    background-color: #fff;
+    height: 100px;
+}
+
+
+.slider {
+    display: flex;
+}

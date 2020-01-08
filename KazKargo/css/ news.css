@@ -1,0 +1,34 @@
+.news-block__inner {
+  display: flex;
+}
+.news-block {
+margin-top: 25px;
+}
+
+.news-block a:hover{
+border-bottom: 2px solid goldenrod;
+}
+.news-block li {
+  margin-top: 10px;
+}
+
+.news-block h2,h1,h3{
+  color: goldenrod;
+}
+
+.content-part{
+  margin-left: 20px;
+}
+.content-part span {
+  font-weight: bold;
+
+}
+.content-part p {
+  border: 2px solid goldenrod;
+}
+.content-part h3 {
+  margin-top: 10px;
+}
+.p {
+  border: none !important;
+}

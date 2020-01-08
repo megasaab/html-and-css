@@ -1,0 +1,243 @@
+@media(max-width: 1265px) {
+    .reviews-slider .slick-list {
+        margin: 0;
+    }
+
+    .reviews-slider .slick-slide {
+        margin: 0;
+
+    }
+
+    .reviews-box {
+        box-shadow: none;
+    }
+}
+
+
+@media(max-width:1105px) {
+    .reviews-slider {
+        margin-top: 60px;
+
+    }
+
+    .reviews-box {
+        margin: 0 auto;
+        width: 520px;
+    }
+
+
+
+
+
+
+    @media(max-width:1160px) {
+        .price__items {
+            flex-wrap: wrap;
+        }
+
+        .price-item {
+            max-width: 48%;
+            margin-bottom: 50%;
+        }
+
+        .price-item__numer {
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+        }
+
+        .partners-img img {
+            width: 900px;
+        }
+    }
+
+
+
+
+
+
+    @media (max-width:1065px) {
+        .top__info {
+            max-width: 425px;
+        }
+
+        .footer__inner {
+            flex-wrap: wrap;
+
+        }
+
+        .footer-col__logo {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    }
+
+    @media (max-width:992px) {
+        .menu__list {
+            display: none;
+            position: absolute;
+            top: 87px;
+            left: 0;
+            right: 0;
+            width: 100%;
+            text-align: center;
+            border-top: 1px solid #000;
+            z-index: 5;
+        }
+
+        .menu__list li {
+            margin-left: 0;
+        }
+
+        .menu__list a {
+            display: block;
+            padding: 10px 0;
+            border-bottom: 1px solid #000;
+            background-color: white;
+        }
+
+        .btn__menu {
+            display: block;
+        }
+    }
+
+    @media (max-width:940px) {
+        .top__info {
+            max-width: 325px;
+        }
+        
+        .partners-img img {
+            width: 600px;
+            margin-left: 140px;
+        }
+
+
+    @media (min-width: 855px) {
+        .top-images__box img {
+            width: 300px;
+        }
+
+        .top-images__circle {
+            width: 160px;
+            height: 160px;
+            top: -30;
+            right: -30;
+        }
+    }
+
+
+    @media (min-width: 740px) {
+        .top__inner {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .top-info {
+            min-width: 100%;
+            margin-right: 0;
+            margin-bottom: 75px;
+
+        }
+
+        .top {
+            padding-top: 50px;
+            padding-bottom: 80px;
+        }
+
+        .price-item {
+            max-width: 100%;
+        }
+
+        .price {
+            padding: 50px 0 80px;
+        }
+
+        .reviews {
+            padding: 60px 50px;
+        }
+
+        .footer-form {
+            width: 100%;
+            margin-top: 30px;
+        }
+
+        .footer_inner {
+            justify-content: flex-start
+        }
+
+        .partners-img img {
+            width: 500px;
+            margin-left: 85px;
+        }
+    }
+
+
+
+
+
+    @media (min-width: 992px) {
+        .menu__list {
+            display: flex !important;
+        }
+    }
+
+
+    @media (max-width: 580px) {
+        .reviews-box {
+            display: block;
+        }
+
+        .reviews-box__images {
+            width: 100%;
+            min-height: 200px;
+        }
+
+        .reviews-box__content {
+            width: 100%;
+            padding: 20px;
+            min-height: 280px;
+
+        }
+
+        .partners-img img {
+            width: 300px;
+            margin-left: 110px;
+        }
+    }
+
+
+    @media(max-width: 399px) {
+
+        .top-info__title {
+            font-size: 40px;
+            line-height: 42px;
+        }
+
+        .top-images__circle {
+            top: -5px;
+            right: 10px;
+        }
+
+        .title {
+            font-size: 36px;
+            font-size: 40px;
+        }
+
+        .price__descr {
+            margin: 35px auto 50px;
+        }
+
+        .price-item {
+            padding: 0 20px 60px;
+        }
+
+        .footer-menu {
+            margin-bottom: 0;
+
+        }
+
+        .partners-img img {
+            width: 100px;
+            margin-left: 100px;
+        }
+    }
